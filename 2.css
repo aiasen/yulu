@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.view{
+    margin-left: 3em;
+    max-width: 500px;
+}
+p{
+    
+}
+.box{
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    height: 100%;
+    background: rgb(159,145,84);
+}
+html{
+    height: 100%;
+}
+button{
+    width: auto;
+}
+.ed{
+    text-align: center;
+}
