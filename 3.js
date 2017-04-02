@@ -6,7 +6,6 @@ generate.onclick = function () {
     var w4 = word4.value
     var w5 = word5.value
     var w6 = word6.value
-    var w7 = word7.value
 
     p1.innerText = w1
     p2.innerText = w2
