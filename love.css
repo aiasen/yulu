@@ -1,0 +1,23 @@
+#code{
+  white-space: pre;
+  font-family: monospace;
+  line-height: 2em;
+  font-size: 13px;
+
+}
+body{
+      margin:0px;
+      padding:0px;
+      background-color:rgb(238,213,182);
+      height:100%;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
