@@ -19,8 +19,9 @@ $.bom = {
             for (var i = 0; i < searchArray.length; i++) {
                 let parts = searchArray[i].split('=')
                 result[parts[0]] = result[1]
-                console.log(result)
+
             }
+            console.log(result)
 
             return window.location.search
         }
