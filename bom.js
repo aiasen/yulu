@@ -14,6 +14,9 @@ $.bom = {
             if(search[0] === '?'){
                 search = search.slice(1)
             }
+            for(var i = 0;i<search.length;i++){
+                console.log(search[i])
+            }
             console.log(search.split('&')) 
             return window.location.search
         }
