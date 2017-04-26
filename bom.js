@@ -11,6 +11,9 @@ $.bom = {
     search: function (name, value) {
         if (value === undefined) {
             let search = window.location.search
+            if(search[0] === '?'){
+                search = search.slice(1)
+            }
             console.log(search.split('&')) 
             return window.location.search
         }
