@@ -10,9 +10,10 @@ $.bom = {
     },
     search: function (name, value) {
         if (value === undefined) {
+            let search = window.location.search
+            console.log(search.split('&')) 
             return window.location.search
         }
-        //console.log(window.location.search)
     }
 }
 
