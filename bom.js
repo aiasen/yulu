@@ -12,5 +12,7 @@ $.bom = {
         if (value === undefined) {
             return window.location.search
         }
+        console.log(window.location.search)
     }
 }
+
