@@ -10,6 +10,7 @@ $.bom = {
     },
     search: function (name, value) {
         if (value === undefined) {
+            let result = {}
             let search = window.location.search
             if (search[0] === '?') {
                 search = search.slice(1)
@@ -17,7 +18,7 @@ $.bom = {
             let searchArray = search.split('&')
             for (var i = 0; i < searchArray.length; i++) {
                 let parts = searchArray[i].split('=')
-                console.log(parts)
+                result[parts[0]] = result[1]
             }
 
             return window.location.search
