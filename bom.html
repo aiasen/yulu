@@ -10,11 +10,16 @@
 </head>
 
 <body>
-    <button id='b'>点我</button>
+    <button id='b'>点我1</button>
+    <button id='c'>点我2</button>
 
     <script>
         b.onclick = function () {
             $.bom.openAtCenter(900, 650, 'iframe.html')
+
+        }
+        c.onclick = function () {
+            $.bom.search('a')
         }
     </script>
 
