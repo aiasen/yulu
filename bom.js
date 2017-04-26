@@ -16,8 +16,10 @@ $.bom = {
             }
             let searchArray = search.split('&')
             for (var i = 0; i < searchArray.length; i++) {
-                console.log(searchArray[i])
+                let parts = searchArray[i].split('=')
+                console.log(parts)
             }
+
             return window.location.search
         }
     }
