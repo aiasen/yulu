@@ -21,9 +21,7 @@ $.bom = {
                 result[parts[0]] = result[1]
 
             }
-            console.log(result)
-
-            return window.location.search
+            return result[name]
         }
     }
 }
