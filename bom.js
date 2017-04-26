@@ -5,11 +5,11 @@ window.$ = function () {
 
 
 $.bom = {
-    openAtCenter : function(width,height,url){
-        window.open(`${url}`,'_blank',`width=${width},height=${height},screenX=${screen.width/2-width/2}px,screenY=${screen.height/2-height/2}px` )
+    openAtCenter: function (width, height, url) {
+        window.open(`${url}`, '_blank', `width=${width},height=${height},screenX=${screen.width / 2 - width / 2}px,screenY=${screen.height / 2 - height / 2}px`)
     },
-    search : function(name,value){
-        if(value === undefined){
+    search: function (name, value) {
+        if (value === undefined) {
             return window.location.search
         }
     }
