@@ -11,13 +11,13 @@ $.bom = {
     search: function (name, value) {
         if (value === undefined) {
             let search = window.location.search
-            if(search[0] === '?'){
+            if (search[0] === '?') {
                 search = search.slice(1)
             }
-            for(var i = 0;i<search.length;i++){
-                console.log(search[i])
+            let searchArray = search.split('&')
+            for (var i = 0; i < searchArray.length; i++) {
+                console.log(searchArray[i])
             }
-            console.log(search.split('&')) 
             return window.location.search
         }
     }
