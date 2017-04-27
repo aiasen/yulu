@@ -18,7 +18,7 @@ $.bom = {
             let searchArray = search.split('&')
             for (var i = 0; i < searchArray.length; i++) {
                 let parts = searchArray[i].split('=')
-                result[parts[0]] = parts[1]
+                result[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1])
             }
             return result[name]
         }
