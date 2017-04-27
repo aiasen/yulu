@@ -21,6 +21,9 @@ $.bom = {
                 result[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1])
             }
             return result[name]
+        } else {
+            let search = window.location.search
+            return search.indexOf(`${name}=`)
         }
     }
 }
